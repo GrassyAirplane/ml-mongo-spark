@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.read.MongoBatchTest" tests="12" skipped="12" failures="0" errors="0" timestamp="2025-03-19T06:42:12" hostname="ML-C02FG5AWMD6P" time="0.002">
+  <properties/>
+  <testcase name="testCustomMongoClientFactory()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWhereFiltersAreConverted()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsHandleNullsWithSchemaSupplied()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsCanFilterNonExistentFields()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsAreSupportedWithSchemaSupplied()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadFromTimeseriesDatabase()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testHandlesAllBsonTypes()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsAreSupportedWithFilters()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsAreSupportedWithSchemaInferred()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWritesLogCommentsInProfilerLogs()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsLogCommentsInProfilerLogs()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadsAreSupportedWithHyphenedNamesFilters()" classname="com.mongodb.spark.sql.connector.read.MongoBatchTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

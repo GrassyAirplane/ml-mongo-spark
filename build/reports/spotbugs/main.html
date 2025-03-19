@@ -1,0 +1,248 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		mongo-spark-connector (spotbugsMain)</p>
+      <p>SpotBugs version: 4.4.2</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/connector/Versions.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoWriteBuilder.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoDataWriterFactory.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoDataWriter.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoDataWriter$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoStreamingWrite.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoWriterCommitMessage.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/write/MongoBatchWrite.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/MongoCatalog.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/connection/MongoClientCache$CachedMongoClient.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/connection/LazyMongoClientCache.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/connection/MongoClientCache.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/connection/MongoClientFactory.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/connection/DefaultMongoClientFactory.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/connection/MongoClientCache$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/ClassHelper$ClassCreator.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/MongoConfig.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/ReadConfig.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/ReadConfig$StreamingStartupMode.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/ClassHelper.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/CollectionsConfig.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/WriteConfig$ConvertJson.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/CollectionsConfig$Type.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/AbstractMongoConfig.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/ReadConfig$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/AbstractMongoConfig$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/CollectionsConfig$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/WriteConfig$OperationType.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/AbstractMongoConfig$UsageMode.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/WriteConfig.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/SimpleMongoConfig.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/CollectionsConfig$ParsingException.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/BsonTimestampParser.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/config/CollectionsConfig$CollectionNameSpliterator.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/interop/JavaScala.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/interop/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoInputPartitionHelper.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/ResumeTokenTimestampHelper.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoContinuousPartitionReader.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoBatchPartitionReader.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoBatch.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/BsonTimestampOffset.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoInputPartitionHelper$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoContinuousInputPartition.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/FieldPartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/Partitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/SamplePartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/PartitionerHelper.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/CustomSamplePartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/PaginateIntoPartitionsPartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/PaginatePartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/PaginateBySizePartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/ShardedPartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/partitioner/SinglePartitionPartitioner.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoMicroBatchStream.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoInputPartition.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoContinuousPartitionReaderFactory.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoOffset.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoContinuousInputPartitionOffset.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoMicroBatchPartitionReaderFactory.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/ResumeTokenBasedOffset.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoMicroBatchPartitionReader.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoMicroBatchInputPartition.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoScanBuilder$FilterAndPipelineStage.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoScanBuilder$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoOffsetStore.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoBatchPartitionReaderFactory.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoContinuousStream.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoScan.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/read/MongoScanBuilder.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/assertions/Assertions.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/assertions/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/exceptions/DataException.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/exceptions/MongoSparkException.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/exceptions/ConfigException.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/exceptions/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/annotations/ThreadSafe.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/annotations/NotThreadSafe.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/RowToBsonDocumentConverter$ObjectToBsonElement.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/RowToBsonDocumentConverter$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/RowToBsonDocumentConverter$ObjectToBsonValue.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/SchemaToExpressionEncoderFunction.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/InternalRowToRowFunction.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/RowToInternalRowFunction.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/ConverterHelper.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/BsonDocumentToRowConverter.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/BsonDocumentToRowConverter$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/InferSchema$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/RowToBsonDocumentConverter.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/SchemaToExpressionEncoderFunction$MethodInvoker.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/ConverterHelper$1.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/InferSchema$2.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/schema/InferSchema.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/package-info.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/MongoTable.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/SupportsNamespacesAdapter.class</li>
+         <li>/Users/eulim/Desktop/Moneylion/ml-mongo-spark/build/classes/java/main/com/mongodb/spark/sql/connector/MongoTableProvider.class</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>3675 lines of code analyzed,
+	in 100 classes, 
+	in 12 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+   </body>
+</html>

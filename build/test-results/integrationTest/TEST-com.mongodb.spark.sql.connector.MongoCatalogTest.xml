@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.MongoCatalogTest" tests="16" skipped="16" failures="0" errors="0" timestamp="2025-03-19T06:41:12" hostname="ML-C02FG5AWMD6P" time="0.002">
+  <properties/>
+  <testcase name="loadTableTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="dropNamespaceTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="alterNamespaceTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="namespaceExistsTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="dropTableTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="listTablesTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loadNamespaceMetadataTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTableTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tablesExists()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="alterTableTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="dropNamespaceTestCascade()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="renameTableTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createNamespaceTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="listNamespacesTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="nameTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="initializeTest()" classname="com.mongodb.spark.sql.connector.MongoCatalogTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

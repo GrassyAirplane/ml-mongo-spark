@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.schema.InferSchemaTest" tests="79" skipped="0" failures="0" errors="0" timestamp="2025-03-19T06:40:40" hostname="ML-C02FG5AWMD6P" time="0.097">
+  <properties/>
+  <testcase name="[1] arrayEmpty" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.003"/>
+  <testcase name="[2] arraySimple" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[3] arrayComplex" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[4] arrayMixedTypes" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[5] arrayComplexMixedTypes" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.003"/>
+  <testcase name="[6] binary" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[7] boolean" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[8] code" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[9] codeWithScope" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[10] dateTime" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[11] decimal128" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[12] documentEmpty" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[13] document" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[14] double" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[15] int32" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[16] int64" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[17] maxKey" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[18] minKey" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[19] null" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[20] objectId" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[21] regex" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[22] string" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[23] symbol" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[24] timestamp" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[25] undefined" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="It should be able to infer the schema from arrays" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.01"/>
+  <testcase name="[1] arrayEmpty" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[2] arraySimple" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[3] arrayComplex" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[4] arrayMixedTypes" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[5] arrayComplexMixedTypes" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[6] binary" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[7] boolean" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[8] code" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[9] codeWithScope" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[10] dateTime" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[11] decimal128" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[12] documentEmpty" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[13] document" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[14] double" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[15] int32" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[16] int64" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.002"/>
+  <testcase name="[17] maxKey" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[18] minKey" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[19] null" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[20] objectId" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[21] regex" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[22] string" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[23] symbol" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[24] timestamp" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[25] undefined" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="It should upscale number types based on numeric precedence" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.005"/>
+  <testcase name="It should be able to infer map types" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.007"/>
+  <testcase name="[1] arrayEmpty" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[2] arraySimple" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[3] arrayComplex" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[4] arrayMixedTypes" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[5] arrayComplexMixedTypes" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[6] binary" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[7] boolean" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[8] code" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[9] codeWithScope" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[10] dateTime" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[11] decimal128" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[12] documentEmpty" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[13] document" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[14] double" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[15] int32" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[16] int64" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[17] maxKey" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[18] minKey" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[19] null" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[20] objectId" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[21] regex" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[22] string" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[23] symbol" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="[24] timestamp" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.0"/>
+  <testcase name="[25] undefined" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <testcase name="testSingleFullDocument()" classname="com.mongodb.spark.sql.connector.schema.InferSchemaTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

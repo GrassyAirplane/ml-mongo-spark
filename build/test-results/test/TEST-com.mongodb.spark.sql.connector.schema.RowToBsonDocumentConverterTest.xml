@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-03-19T06:40:40" hostname="ML-C02FG5AWMD6P" time="0.207">
+  <properties/>
+  <testcase name="test simple types" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.024"/>
+  <testcase name="test json converter all fields" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.063"/>
+  <testcase name="test simple types with null values" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.009"/>
+  <testcase name="test list types" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.025"/>
+  <testcase name="test ignore null values" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.025"/>
+  <testcase name="test unsupported types" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.013"/>
+  <testcase name="test map types" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.023"/>
+  <testcase name="test decimal types" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.009"/>
+  <testcase name="test null values" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.007"/>
+  <testcase name="test json converter objects or arrays only" classname="com.mongodb.spark.sql.connector.schema.RowToBsonDocumentConverterTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

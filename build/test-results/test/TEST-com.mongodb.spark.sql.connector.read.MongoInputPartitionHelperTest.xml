@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.read.MongoInputPartitionHelperTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-19T06:40:37" hostname="ML-C02FG5AWMD6P" time="0.08">
+  <properties/>
+  <testcase name="generatePipelineTest()" classname="com.mongodb.spark.sql.connector.read.MongoInputPartitionHelperTest" time="0.011"/>
+  <testcase name="generateMongoBatchPartitions()" classname="com.mongodb.spark.sql.connector.read.MongoInputPartitionHelperTest" time="0.005"/>
+  <testcase name="generateMicroBatchPartitions()" classname="com.mongodb.spark.sql.connector.read.MongoInputPartitionHelperTest" time="0.061"/>
+  <testcase name="generatePipelinePublishFullDocumentTest()" classname="com.mongodb.spark.sql.connector.read.MongoInputPartitionHelperTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" tests="9" skipped="9" failures="0" errors="0" timestamp="2025-03-19T06:44:12" hostname="ML-C02FG5AWMD6P" time="0.001">
+  <properties/>
+  <testcase name="shouldValidateReadConfigs()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testUsingAlternativePartitionField()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUsingPartitionFieldThatContainsDuplicates()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldLogCommentsInProfilerLogs()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreatesExpectedPartitions()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreatesExpectedPartitionsWithUsersPipeline()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNonExistentCollection()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSingleResultData()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreatesUnevenPartitions()" classname="com.mongodb.spark.sql.connector.read.partitioner.PaginateIntoPartitionsPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

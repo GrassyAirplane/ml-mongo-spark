@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.4">
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/MongoCatalogTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/RoundTripTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/BoxedBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/ComplexBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/DateTimeBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/PrimitiveBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoDBOnline.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoDBOnlineCondition.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoSparkConnectorHelper.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoSparkConnectorTestCase.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/AbstractMongoStreamTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/CustomMongoClientFactory.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/MongoBatchTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/MongoContinuousStreamTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/MongoMicroBatchStreamTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PaginateBySizePartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PaginateIntoPartitionsPartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PartitionerHelperTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PartitionerTestCase.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/SamplePartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/ShardedPartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/SinglePartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/schema/InferSchemaIntegrationTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/write/MongoSparkConnectorWriteTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/MongoCatalogTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/RoundTripTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/BoxedBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/ComplexBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/DateTimeBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/beans/PrimitiveBean.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoDBOnline.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoDBOnlineCondition.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoSparkConnectorHelper.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/mongodb/MongoSparkConnectorTestCase.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/AbstractMongoStreamTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/CustomMongoClientFactory.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/MongoBatchTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/MongoContinuousStreamTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/MongoMicroBatchStreamTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PaginateBySizePartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PaginateIntoPartitionsPartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PartitionerHelperTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/PartitionerTestCase.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/SamplePartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/ShardedPartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/read/partitioner/SinglePartitionerTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/schema/InferSchemaIntegrationTest.java">
+</file>
+<file name="/Users/eulim/Desktop/Moneylion/ml-mongo-spark/src/integrationTest/java/com/mongodb/spark/sql/connector/write/MongoSparkConnectorWriteTest.java">
+</file>
+</checkstyle>

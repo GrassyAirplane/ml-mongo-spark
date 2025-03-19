@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" tests="7" skipped="7" failures="0" errors="0" timestamp="2025-03-19T06:45:42" hostname="ML-C02FG5AWMD6P" time="0.0">
+  <properties/>
+  <testcase name="testNonShardedCollection()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPartitionsTheCollectionAsExpected()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThrowsExceptionWithCompoundShardKeys()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldParseTheHostsListCorrectly()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreatesExpectedPartitionsWithUsersPipeline()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="canSupportEmptyOrDeletedCollections()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testThrowsExceptionWithHashedShardKeys()" classname="com.mongodb.spark.sql.connector.read.partitioner.ShardedPartitionerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

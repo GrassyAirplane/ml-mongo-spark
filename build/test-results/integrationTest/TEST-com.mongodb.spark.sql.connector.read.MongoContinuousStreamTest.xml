@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.read.MongoContinuousStreamTest" tests="3" skipped="3" failures="0" errors="0" timestamp="2025-03-19T06:42:42" hostname="ML-C02FG5AWMD6P" time="0.002">
+  <properties/>
+  <testcase name="testLogCommentsInProfilerLogs()" classname="com.mongodb.spark.sql.connector.read.MongoContinuousStreamTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStreamInferSchemaNoData()" classname="com.mongodb.spark.sql.connector.read.MongoContinuousStreamTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStreamInferSchemaWithData()" classname="com.mongodb.spark.sql.connector.read.MongoContinuousStreamTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" tests="9" skipped="9" failures="0" errors="0" timestamp="2025-03-19T06:47:12" hostname="ML-C02FG5AWMD6P" time="0.001">
+  <properties/>
+  <testcase name="testLogCommentsInProfilerLogs()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTimeseriesSupport()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSupportedWriteModesWithOptions()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLogCommentsInProfilerLogsStreamingWrites()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSupportedWriteModes()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testIgnoreNullValues()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSupportedStreamingWriteAppend()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUnsupportedDatasourceV2WriteModes()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSupportedStreamingWriteWithWindow()" classname="com.mongodb.spark.sql.connector.write.MongoSparkConnectorWriteTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

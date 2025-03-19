@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.config.MongoConfigTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-03-19T06:40:35" hostname="ML-C02FG5AWMD6P" time="0.262">
+  <properties/>
+  <testcase name="testDatabaseAndCollectionParsing()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.192"/>
+  <testcase name="testConnectionStringErrors()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.002"/>
+  <testcase name="[1] MongoConfig{options=boolean=true, string=string, list=1,2, double=1.0, int=1, long=1, usageMode=READ}" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.017"/>
+  <testcase name="[2] MongoConfig{options=boolean=true, string=string, list=1,2, double=1.0, int=1, long=1, usageMode=WRITE}" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <testcase name="testMongoConfigOptionsParsing()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.002"/>
+  <testcase name="testWriteMongoConfig()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.002"/>
+  <testcase name="[1] MongoConfig{options=boolean=true, string=string, list=1,2, double=1.0, int=1, long=1, usageMode=READ}" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <testcase name="[2] MongoConfig{options=boolean=true, string=string, list=1,2, double=1.0, int=1, long=1, usageMode=WRITE}" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <testcase name="testReadConfigStreamFullDocument()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.002"/>
+  <testcase name="testMongoConfig()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <testcase name="testReadMongoConfig()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.002"/>
+  <testcase name="testMongoConfigStringHidesConnectionString()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.002"/>
+  <testcase name="[1] MongoConfig{options=boolean=true, string=string, list=1,2, double=1.0, int=1, long=1, usageMode=READ}" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <testcase name="[2] MongoConfig{options=boolean=true, string=string, list=1,2, double=1.0, int=1, long=1, usageMode=WRITE}" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.0"/>
+  <testcase name="testMongoConfigWriteConcern()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <testcase name="testWriteConfigConvertJson()" classname="com.mongodb.spark.sql.connector.config.MongoConfigTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

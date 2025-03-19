@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-03-19T06:40:40" hostname="ML-C02FG5AWMD6P" time="0.334">
+  <properties/>
+  <testcase name="test null support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.004"/>
+  <testcase name="test fromBsonDocument" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.297"/>
+  <testcase name="test boolean support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.003"/>
+  <testcase name="test unsupported types" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.001"/>
+  <testcase name="test extended Json string support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.002"/>
+  <testcase name="test string support relaxed" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.001"/>
+  <testcase name="test number support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.007"/>
+  <testcase name="test bytes support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.002"/>
+  <testcase name="test struct support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.002"/>
+  <testcase name="test date and timestamp support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.004"/>
+  <testcase name="test Map support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.005"/>
+  <testcase name="test array support" classname="com.mongodb.spark.sql.connector.schema.BsonDocumentToRowConverterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
